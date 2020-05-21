@@ -1,0 +1,650 @@
+2.7839 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+11.4599 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1360, 768]. Using actual size
+13.3486 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021FCE14E780>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000021FCDE5E198>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1360,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.3487 	EXP 	window1: recordFrameIntervals = False
+13.5108 	EXP 	window1: recordFrameIntervals = True
+13.6944 	EXP 	window1: recordFrameIntervals = False
+14.4257 	EXP 	Created instr1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.4328 	EXP 	Created fix1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fix1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+14.5862 	EXP 	Created gridLines1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='grid.png', interpolate=True, mask=None, maskParams=None, name='gridLines1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.6]), texRes=128, units='height', win=Window(...))
+14.5946 	EXP 	Created tarSquare1 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='tarSquare1', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+14.5982 	EXP 	Created fixTrial1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixTrial1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+14.6539 	EXP 	Created instr2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.6577 	EXP 	Created fix2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fix2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+14.8041 	EXP 	Created gridLines2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='grid.png', interpolate=True, mask=None, maskParams=None, name='gridLines2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.6]), texRes=128, units='height', win=Window(...))
+14.8076 	EXP 	Created tarSquare2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='tarSquare2', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+14.8110 	EXP 	Created fixTrial2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixTrial2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+14.8347 	EXP 	Created thanks = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thanks', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.8746 	EXP 	instr1: autoDraw = True
+19.1337 	DATA 	Keypress: space
+19.1427 	EXP 	instr1: autoDraw = False
+19.1427 	EXP 	fix1: autoDraw = True
+20.2062 	EXP 	Imported nBackCond1.xlsx as conditions, 30 conditions, 4 params
+20.2068 	EXP 	Created sequence: sequential, trialTypes=30, nReps=1, seed=None
+20.2074 	EXP 	New trial (rep=0, index=0): OrderedDict([('squareT1', 6), ('loc1T1', 0.2), ('loc2T1', 0.0), ('corrAnsT1', None)])
+20.2269 	EXP 	fix1: autoDraw = False
+20.2269 	EXP 	fix1: autoDraw = False
+20.2269 	EXP 	tarSquare1: pos = array([0.2, 0. ])
+20.2269 	EXP 	gridLines1: autoDraw = True
+20.2269 	EXP 	tarSquare1: autoDraw = True
+21.2094 	EXP 	fixTrial1: autoDraw = True
+21.2261 	EXP 	tarSquare1: autoDraw = False
+22.1474 	EXP 	New trial (rep=0, index=1): OrderedDict([('squareT1', 6), ('loc1T1', 0.2), ('loc2T1', 0.0), ('corrAnsT1', 'space')])
+22.1585 	EXP 	gridLines1: autoDraw = False
+22.1585 	EXP 	tarSquare1: autoDraw = False
+22.1585 	EXP 	fixTrial1: autoDraw = False
+22.1585 	EXP 	tarSquare1: pos = array([0.2, 0. ])
+22.1585 	EXP 	gridLines1: autoDraw = True
+22.1585 	EXP 	tarSquare1: autoDraw = True
+22.5630 	DATA 	Keypress: space
+23.1416 	EXP 	fixTrial1: autoDraw = True
+23.1582 	EXP 	tarSquare1: autoDraw = False
+24.1418 	EXP 	fixTrial1: autoDraw = False
+24.1442 	EXP 	New trial (rep=0, index=2): OrderedDict([('squareT1', 2), ('loc1T1', 0.0), ('loc2T1', 0.2), ('corrAnsT1', None)])
+24.1581 	EXP 	gridLines1: autoDraw = False
+24.1581 	EXP 	tarSquare1: autoDraw = False
+24.1581 	EXP 	fixTrial1: autoDraw = False
+24.1581 	EXP 	tarSquare1: pos = array([0. , 0.2])
+24.1581 	EXP 	gridLines1: autoDraw = True
+24.1581 	EXP 	tarSquare1: autoDraw = True
+25.1413 	EXP 	fixTrial1: autoDraw = True
+25.1580 	EXP 	tarSquare1: autoDraw = False
+26.1411 	EXP 	fixTrial1: autoDraw = False
+26.1431 	EXP 	New trial (rep=0, index=3): OrderedDict([('squareT1', 9), ('loc1T1', 0.2), ('loc2T1', -0.2), ('corrAnsT1', None)])
+26.1577 	EXP 	gridLines1: autoDraw = False
+26.1577 	EXP 	tarSquare1: autoDraw = False
+26.1577 	EXP 	fixTrial1: autoDraw = False
+26.1577 	EXP 	tarSquare1: pos = array([ 0.2, -0.2])
+26.1577 	EXP 	gridLines1: autoDraw = True
+26.1577 	EXP 	tarSquare1: autoDraw = True
+27.1408 	EXP 	fixTrial1: autoDraw = True
+27.1575 	EXP 	tarSquare1: autoDraw = False
+28.1406 	EXP 	fixTrial1: autoDraw = False
+28.1427 	EXP 	New trial (rep=0, index=4): OrderedDict([('squareT1', 9), ('loc1T1', 0.2), ('loc2T1', -0.2), ('corrAnsT1', 'space')])
+28.1572 	EXP 	gridLines1: autoDraw = False
+28.1572 	EXP 	tarSquare1: autoDraw = False
+28.1572 	EXP 	fixTrial1: autoDraw = False
+28.1572 	EXP 	tarSquare1: pos = array([ 0.2, -0.2])
+28.1572 	EXP 	gridLines1: autoDraw = True
+28.1572 	EXP 	tarSquare1: autoDraw = True
+28.6790 	DATA 	Keypress: space
+29.1403 	EXP 	fixTrial1: autoDraw = True
+29.1570 	EXP 	tarSquare1: autoDraw = False
+30.1408 	EXP 	fixTrial1: autoDraw = False
+30.1445 	EXP 	New trial (rep=0, index=5): OrderedDict([('squareT1', 6), ('loc1T1', 0.2), ('loc2T1', 0.0), ('corrAnsT1', None)])
+30.1567 	EXP 	gridLines1: autoDraw = False
+30.1567 	EXP 	tarSquare1: autoDraw = False
+30.1567 	EXP 	fixTrial1: autoDraw = False
+30.1567 	EXP 	tarSquare1: pos = array([0.2, 0. ])
+30.1567 	EXP 	gridLines1: autoDraw = True
+30.1567 	EXP 	tarSquare1: autoDraw = True
+31.1398 	EXP 	fixTrial1: autoDraw = True
+31.1566 	EXP 	tarSquare1: autoDraw = False
+32.1396 	EXP 	fixTrial1: autoDraw = False
+32.1417 	EXP 	New trial (rep=0, index=6): OrderedDict([('squareT1', 4), ('loc1T1', -0.2), ('loc2T1', 0.0), ('corrAnsT1', None)])
+32.1563 	EXP 	gridLines1: autoDraw = False
+32.1563 	EXP 	tarSquare1: autoDraw = False
+32.1563 	EXP 	fixTrial1: autoDraw = False
+32.1563 	EXP 	tarSquare1: pos = array([-0.2,  0. ])
+32.1563 	EXP 	gridLines1: autoDraw = True
+32.1563 	EXP 	tarSquare1: autoDraw = True
+33.1394 	EXP 	fixTrial1: autoDraw = True
+33.1560 	EXP 	tarSquare1: autoDraw = False
+34.1391 	EXP 	fixTrial1: autoDraw = False
+34.1413 	EXP 	New trial (rep=0, index=7): OrderedDict([('squareT1', 3), ('loc1T1', 0.2), ('loc2T1', 0.2), ('corrAnsT1', None)])
+34.1558 	EXP 	gridLines1: autoDraw = False
+34.1558 	EXP 	tarSquare1: autoDraw = False
+34.1558 	EXP 	fixTrial1: autoDraw = False
+34.1558 	EXP 	tarSquare1: pos = array([0.2, 0.2])
+34.1558 	EXP 	gridLines1: autoDraw = True
+34.1558 	EXP 	tarSquare1: autoDraw = True
+35.1389 	EXP 	fixTrial1: autoDraw = True
+35.1555 	EXP 	tarSquare1: autoDraw = False
+36.1390 	EXP 	fixTrial1: autoDraw = False
+36.1417 	EXP 	New trial (rep=0, index=8): OrderedDict([('squareT1', 3), ('loc1T1', 0.2), ('loc2T1', 0.2), ('corrAnsT1', 'space')])
+36.1553 	EXP 	gridLines1: autoDraw = False
+36.1553 	EXP 	tarSquare1: autoDraw = False
+36.1553 	EXP 	fixTrial1: autoDraw = False
+36.1553 	EXP 	tarSquare1: pos = array([0.2, 0.2])
+36.1553 	EXP 	gridLines1: autoDraw = True
+36.1553 	EXP 	tarSquare1: autoDraw = True
+37.1386 	EXP 	fixTrial1: autoDraw = True
+37.1553 	EXP 	tarSquare1: autoDraw = False
+38.1381 	EXP 	fixTrial1: autoDraw = False
+38.1403 	EXP 	New trial (rep=0, index=9): OrderedDict([('squareT1', 8), ('loc1T1', 0.0), ('loc2T1', -0.2), ('corrAnsT1', None)])
+38.1548 	EXP 	gridLines1: autoDraw = False
+38.1548 	EXP 	tarSquare1: autoDraw = False
+38.1548 	EXP 	fixTrial1: autoDraw = False
+38.1548 	EXP 	tarSquare1: pos = array([ 0. , -0.2])
+38.1548 	EXP 	gridLines1: autoDraw = True
+38.1548 	EXP 	tarSquare1: autoDraw = True
+39.1379 	EXP 	fixTrial1: autoDraw = True
+39.1546 	EXP 	tarSquare1: autoDraw = False
+40.1376 	EXP 	fixTrial1: autoDraw = False
+40.1396 	EXP 	New trial (rep=0, index=10): OrderedDict([('squareT1', 1), ('loc1T1', -0.2), ('loc2T1', 0.2), ('corrAnsT1', None)])
+40.1543 	EXP 	gridLines1: autoDraw = False
+40.1543 	EXP 	tarSquare1: autoDraw = False
+40.1543 	EXP 	fixTrial1: autoDraw = False
+40.1543 	EXP 	tarSquare1: pos = array([-0.2,  0.2])
+40.1543 	EXP 	gridLines1: autoDraw = True
+40.1543 	EXP 	tarSquare1: autoDraw = True
+41.1374 	EXP 	fixTrial1: autoDraw = True
+41.1540 	EXP 	tarSquare1: autoDraw = False
+42.1372 	EXP 	fixTrial1: autoDraw = False
+42.1391 	EXP 	New trial (rep=0, index=11): OrderedDict([('squareT1', 2), ('loc1T1', 0.0), ('loc2T1', 0.2), ('corrAnsT1', None)])
+42.1538 	EXP 	gridLines1: autoDraw = False
+42.1538 	EXP 	tarSquare1: autoDraw = False
+42.1538 	EXP 	fixTrial1: autoDraw = False
+42.1538 	EXP 	tarSquare1: pos = array([0. , 0.2])
+42.1538 	EXP 	gridLines1: autoDraw = True
+42.1538 	EXP 	tarSquare1: autoDraw = True
+43.1369 	EXP 	fixTrial1: autoDraw = True
+43.1536 	EXP 	tarSquare1: autoDraw = False
+44.1366 	EXP 	fixTrial1: autoDraw = False
+44.1386 	EXP 	New trial (rep=0, index=12): OrderedDict([('squareT1', 4), ('loc1T1', -0.2), ('loc2T1', 0.0), ('corrAnsT1', None)])
+44.1533 	EXP 	gridLines1: autoDraw = False
+44.1533 	EXP 	tarSquare1: autoDraw = False
+44.1533 	EXP 	fixTrial1: autoDraw = False
+44.1533 	EXP 	tarSquare1: pos = array([-0.2,  0. ])
+44.1533 	EXP 	gridLines1: autoDraw = True
+44.1533 	EXP 	tarSquare1: autoDraw = True
+45.1364 	EXP 	fixTrial1: autoDraw = True
+45.1531 	EXP 	tarSquare1: autoDraw = False
+46.1362 	EXP 	fixTrial1: autoDraw = False
+46.1381 	EXP 	New trial (rep=0, index=13): OrderedDict([('squareT1', 4), ('loc1T1', -0.2), ('loc2T1', 0.0), ('corrAnsT1', 'space')])
+46.1528 	EXP 	gridLines1: autoDraw = False
+46.1528 	EXP 	tarSquare1: autoDraw = False
+46.1528 	EXP 	fixTrial1: autoDraw = False
+46.1528 	EXP 	tarSquare1: pos = array([-0.2,  0. ])
+46.1528 	EXP 	gridLines1: autoDraw = True
+46.1528 	EXP 	tarSquare1: autoDraw = True
+47.1359 	EXP 	fixTrial1: autoDraw = True
+47.1526 	EXP 	tarSquare1: autoDraw = False
+48.1357 	EXP 	fixTrial1: autoDraw = False
+48.1378 	EXP 	New trial (rep=0, index=14): OrderedDict([('squareT1', 8), ('loc1T1', 0.0), ('loc2T1', -0.2), ('corrAnsT1', None)])
+48.1523 	EXP 	gridLines1: autoDraw = False
+48.1523 	EXP 	tarSquare1: autoDraw = False
+48.1523 	EXP 	fixTrial1: autoDraw = False
+48.1523 	EXP 	tarSquare1: pos = array([ 0. , -0.2])
+48.1523 	EXP 	gridLines1: autoDraw = True
+48.1523 	EXP 	tarSquare1: autoDraw = True
+49.1354 	EXP 	fixTrial1: autoDraw = True
+49.1521 	EXP 	tarSquare1: autoDraw = False
+50.1352 	EXP 	fixTrial1: autoDraw = False
+50.1397 	EXP 	New trial (rep=0, index=15): OrderedDict([('squareT1', 5), ('loc1T1', 0.0), ('loc2T1', 0.0), ('corrAnsT1', None)])
+50.1519 	EXP 	gridLines1: autoDraw = False
+50.1519 	EXP 	tarSquare1: autoDraw = False
+50.1519 	EXP 	fixTrial1: autoDraw = False
+50.1519 	EXP 	tarSquare1: pos = array([0., 0.])
+50.1519 	EXP 	gridLines1: autoDraw = True
+50.1519 	EXP 	tarSquare1: autoDraw = True
+51.1350 	EXP 	fixTrial1: autoDraw = True
+51.1516 	EXP 	tarSquare1: autoDraw = False
+52.1347 	EXP 	fixTrial1: autoDraw = False
+52.1366 	EXP 	New trial (rep=0, index=16): OrderedDict([('squareT1', 5), ('loc1T1', 0.0), ('loc2T1', 0.0), ('corrAnsT1', 'space')])
+52.1514 	EXP 	gridLines1: autoDraw = False
+52.1514 	EXP 	tarSquare1: autoDraw = False
+52.1514 	EXP 	fixTrial1: autoDraw = False
+52.1514 	EXP 	tarSquare1: pos = array([0., 0.])
+52.1514 	EXP 	gridLines1: autoDraw = True
+52.1514 	EXP 	tarSquare1: autoDraw = True
+53.1345 	EXP 	fixTrial1: autoDraw = True
+53.1511 	EXP 	tarSquare1: autoDraw = False
+54.1342 	EXP 	fixTrial1: autoDraw = False
+54.1362 	EXP 	New trial (rep=0, index=17): OrderedDict([('squareT1', 1), ('loc1T1', -0.2), ('loc2T1', 0.2), ('corrAnsT1', None)])
+54.1509 	EXP 	gridLines1: autoDraw = False
+54.1509 	EXP 	tarSquare1: autoDraw = False
+54.1509 	EXP 	fixTrial1: autoDraw = False
+54.1509 	EXP 	tarSquare1: pos = array([-0.2,  0.2])
+54.1509 	EXP 	gridLines1: autoDraw = True
+54.1509 	EXP 	tarSquare1: autoDraw = True
+55.1340 	EXP 	fixTrial1: autoDraw = True
+55.1506 	EXP 	tarSquare1: autoDraw = False
+56.1337 	EXP 	fixTrial1: autoDraw = False
+56.1359 	EXP 	New trial (rep=0, index=18): OrderedDict([('squareT1', 3), ('loc1T1', 0.2), ('loc2T1', 0.2), ('corrAnsT1', None)])
+56.1504 	EXP 	gridLines1: autoDraw = False
+56.1504 	EXP 	tarSquare1: autoDraw = False
+56.1504 	EXP 	fixTrial1: autoDraw = False
+56.1504 	EXP 	tarSquare1: pos = array([0.2, 0.2])
+56.1504 	EXP 	gridLines1: autoDraw = True
+56.1504 	EXP 	tarSquare1: autoDraw = True
+57.1335 	EXP 	fixTrial1: autoDraw = True
+57.1501 	EXP 	tarSquare1: autoDraw = False
+58.1333 	EXP 	fixTrial1: autoDraw = False
+58.1352 	EXP 	New trial (rep=0, index=19): OrderedDict([('squareT1', 6), ('loc1T1', 0.2), ('loc2T1', 0.0), ('corrAnsT1', None)])
+58.1499 	EXP 	gridLines1: autoDraw = False
+58.1499 	EXP 	tarSquare1: autoDraw = False
+58.1499 	EXP 	fixTrial1: autoDraw = False
+58.1499 	EXP 	tarSquare1: pos = array([0.2, 0. ])
+58.1499 	EXP 	gridLines1: autoDraw = True
+58.1499 	EXP 	tarSquare1: autoDraw = True
+59.1330 	EXP 	fixTrial1: autoDraw = True
+59.1497 	EXP 	tarSquare1: autoDraw = False
+60.1328 	EXP 	fixTrial1: autoDraw = False
+60.1348 	EXP 	New trial (rep=0, index=20): OrderedDict([('squareT1', 1), ('loc1T1', -0.2), ('loc2T1', 0.2), ('corrAnsT1', None)])
+60.1495 	EXP 	gridLines1: autoDraw = False
+60.1495 	EXP 	tarSquare1: autoDraw = False
+60.1495 	EXP 	fixTrial1: autoDraw = False
+60.1495 	EXP 	tarSquare1: pos = array([-0.2,  0.2])
+60.1495 	EXP 	gridLines1: autoDraw = True
+60.1495 	EXP 	tarSquare1: autoDraw = True
+61.1325 	EXP 	fixTrial1: autoDraw = True
+61.1492 	EXP 	tarSquare1: autoDraw = False
+62.1323 	EXP 	fixTrial1: autoDraw = False
+62.1345 	EXP 	New trial (rep=0, index=21): OrderedDict([('squareT1', 1), ('loc1T1', -0.2), ('loc2T1', 0.2), ('corrAnsT1', 'space')])
+62.1489 	EXP 	gridLines1: autoDraw = False
+62.1489 	EXP 	tarSquare1: autoDraw = False
+62.1489 	EXP 	fixTrial1: autoDraw = False
+62.1489 	EXP 	tarSquare1: pos = array([-0.2,  0.2])
+62.1489 	EXP 	gridLines1: autoDraw = True
+62.1489 	EXP 	tarSquare1: autoDraw = True
+63.1321 	EXP 	fixTrial1: autoDraw = True
+63.1487 	EXP 	tarSquare1: autoDraw = False
+64.1318 	EXP 	fixTrial1: autoDraw = False
+64.1340 	EXP 	New trial (rep=0, index=22): OrderedDict([('squareT1', 1), ('loc1T1', -0.2), ('loc2T1', 0.2), ('corrAnsT1', 'space')])
+64.1484 	EXP 	gridLines1: autoDraw = False
+64.1484 	EXP 	tarSquare1: autoDraw = False
+64.1484 	EXP 	fixTrial1: autoDraw = False
+64.1484 	EXP 	tarSquare1: pos = array([-0.2,  0.2])
+64.1484 	EXP 	gridLines1: autoDraw = True
+64.1484 	EXP 	tarSquare1: autoDraw = True
+65.1316 	EXP 	fixTrial1: autoDraw = True
+65.1482 	EXP 	tarSquare1: autoDraw = False
+66.1313 	EXP 	fixTrial1: autoDraw = False
+66.1333 	EXP 	New trial (rep=0, index=23): OrderedDict([('squareT1', 3), ('loc1T1', 0.2), ('loc2T1', 0.2), ('corrAnsT1', None)])
+66.1480 	EXP 	gridLines1: autoDraw = False
+66.1480 	EXP 	tarSquare1: autoDraw = False
+66.1480 	EXP 	fixTrial1: autoDraw = False
+66.1480 	EXP 	tarSquare1: pos = array([0.2, 0.2])
+66.1480 	EXP 	gridLines1: autoDraw = True
+66.1480 	EXP 	tarSquare1: autoDraw = True
+67.1311 	EXP 	fixTrial1: autoDraw = True
+67.1477 	EXP 	tarSquare1: autoDraw = False
+68.1308 	EXP 	fixTrial1: autoDraw = False
+68.1330 	EXP 	New trial (rep=0, index=24): OrderedDict([('squareT1', 2), ('loc1T1', 0.0), ('loc2T1', 0.2), ('corrAnsT1', None)])
+68.1475 	EXP 	gridLines1: autoDraw = False
+68.1475 	EXP 	tarSquare1: autoDraw = False
+68.1475 	EXP 	fixTrial1: autoDraw = False
+68.1475 	EXP 	tarSquare1: pos = array([0. , 0.2])
+68.1475 	EXP 	gridLines1: autoDraw = True
+68.1475 	EXP 	tarSquare1: autoDraw = True
+69.1306 	EXP 	fixTrial1: autoDraw = True
+69.1473 	EXP 	tarSquare1: autoDraw = False
+70.1303 	EXP 	fixTrial1: autoDraw = False
+70.1325 	EXP 	New trial (rep=0, index=25): OrderedDict([('squareT1', 1), ('loc1T1', -0.2), ('loc2T1', 0.2), ('corrAnsT1', None)])
+70.1470 	EXP 	gridLines1: autoDraw = False
+70.1470 	EXP 	tarSquare1: autoDraw = False
+70.1470 	EXP 	fixTrial1: autoDraw = False
+70.1470 	EXP 	tarSquare1: pos = array([-0.2,  0.2])
+70.1470 	EXP 	gridLines1: autoDraw = True
+70.1470 	EXP 	tarSquare1: autoDraw = True
+71.1301 	EXP 	fixTrial1: autoDraw = True
+71.1468 	EXP 	tarSquare1: autoDraw = False
+72.1299 	EXP 	fixTrial1: autoDraw = False
+72.1338 	EXP 	New trial (rep=0, index=26): OrderedDict([('squareT1', 7), ('loc1T1', -0.2), ('loc2T1', -0.2), ('corrAnsT1', None)])
+72.1465 	EXP 	gridLines1: autoDraw = False
+72.1465 	EXP 	gridLines1: autoDraw = False
+72.1465 	EXP 	tarSquare1: autoDraw = False
+72.1465 	EXP 	fixTrial1: autoDraw = False
+72.1465 	EXP 	tarSquare1: pos = array([-0.2, -0.2])
+72.1465 	EXP 	gridLines1: autoDraw = True
+72.1465 	EXP 	tarSquare1: autoDraw = True
+73.1296 	EXP 	fixTrial1: autoDraw = True
+73.1463 	EXP 	tarSquare1: autoDraw = False
+74.1294 	EXP 	fixTrial1: autoDraw = False
+74.1328 	EXP 	New trial (rep=0, index=27): OrderedDict([('squareT1', 7), ('loc1T1', -0.2), ('loc2T1', -0.2), ('corrAnsT1', 'space')])
+74.1460 	EXP 	gridLines1: autoDraw = False
+74.1460 	EXP 	gridLines1: autoDraw = False
+74.1460 	EXP 	tarSquare1: autoDraw = False
+74.1460 	EXP 	fixTrial1: autoDraw = False
+74.1460 	EXP 	tarSquare1: pos = array([-0.2, -0.2])
+74.1460 	EXP 	gridLines1: autoDraw = True
+74.1460 	EXP 	tarSquare1: autoDraw = True
+75.1291 	EXP 	fixTrial1: autoDraw = True
+75.1458 	EXP 	tarSquare1: autoDraw = False
+76.1289 	EXP 	fixTrial1: autoDraw = False
+76.1329 	EXP 	New trial (rep=0, index=28): OrderedDict([('squareT1', 2), ('loc1T1', 0.0), ('loc2T1', 0.2), ('corrAnsT1', None)])
+76.1455 	EXP 	gridLines1: autoDraw = False
+76.1455 	EXP 	gridLines1: autoDraw = False
+76.1455 	EXP 	tarSquare1: autoDraw = False
+76.1455 	EXP 	fixTrial1: autoDraw = False
+76.1455 	EXP 	tarSquare1: pos = array([0. , 0.2])
+76.1455 	EXP 	gridLines1: autoDraw = True
+76.1455 	EXP 	tarSquare1: autoDraw = True
+77.1286 	EXP 	fixTrial1: autoDraw = True
+77.1453 	EXP 	tarSquare1: autoDraw = False
+78.1284 	EXP 	fixTrial1: autoDraw = False
+78.1320 	EXP 	New trial (rep=0, index=29): OrderedDict([('squareT1', 6), ('loc1T1', 0.2), ('loc2T1', 0.0), ('corrAnsT1', None)])
+78.1451 	EXP 	gridLines1: autoDraw = False
+78.1451 	EXP 	gridLines1: autoDraw = False
+78.1451 	EXP 	tarSquare1: autoDraw = False
+78.1451 	EXP 	fixTrial1: autoDraw = False
+78.1451 	EXP 	tarSquare1: pos = array([0.2, 0. ])
+78.1451 	EXP 	gridLines1: autoDraw = True
+78.1451 	EXP 	tarSquare1: autoDraw = True
+79.1282 	EXP 	fixTrial1: autoDraw = True
+79.1448 	EXP 	tarSquare1: autoDraw = False
+80.1279 	EXP 	fixTrial1: autoDraw = False
+80.1446 	EXP 	gridLines1: autoDraw = False
+80.1446 	EXP 	gridLines1: autoDraw = False
+80.1446 	EXP 	tarSquare1: autoDraw = False
+80.1446 	EXP 	fixTrial1: autoDraw = False
+80.1446 	EXP 	instr2: autoDraw = True
+82.1515 	DATA 	Keypress: space
+82.1607 	EXP 	instr2: autoDraw = False
+82.1607 	EXP 	fix2: autoDraw = True
+83.1640 	EXP 	Imported nBackCond2.xlsx as conditions, 30 conditions, 4 params
+83.1646 	EXP 	Created sequence: sequential, trialTypes=30, nReps=1, seed=None
+83.1652 	EXP 	New trial (rep=0, index=0): OrderedDict([('squareT2', 5), ('loc1T2', 0.0), ('loc2T2', 0.0), ('corrAnsT2', None)])
+83.1817 	EXP 	fix2: autoDraw = False
+83.1817 	EXP 	fix2: autoDraw = False
+83.1817 	EXP 	tarSquare2: pos = array([0., 0.])
+83.1817 	EXP 	gridLines2: autoDraw = True
+83.1817 	EXP 	tarSquare2: autoDraw = True
+84.1602 	EXP 	fixTrial2: autoDraw = True
+84.1936 	EXP 	tarSquare2: autoDraw = False
+85.1600 	EXP 	fixTrial2: autoDraw = False
+85.1629 	EXP 	New trial (rep=0, index=1): OrderedDict([('squareT2', 2), ('loc1T2', 0.0), ('loc2T2', 0.2), ('corrAnsT2', None)])
+85.1767 	EXP 	gridLines2: autoDraw = False
+85.1767 	EXP 	tarSquare2: autoDraw = False
+85.1767 	EXP 	fixTrial2: autoDraw = False
+85.1767 	EXP 	tarSquare2: pos = array([0. , 0.2])
+85.1767 	EXP 	gridLines2: autoDraw = True
+85.1767 	EXP 	tarSquare2: autoDraw = True
+86.1598 	EXP 	fixTrial2: autoDraw = True
+86.1764 	EXP 	tarSquare2: autoDraw = False
+87.1595 	EXP 	fixTrial2: autoDraw = False
+87.1615 	EXP 	New trial (rep=0, index=2): OrderedDict([('squareT2', 6), ('loc1T2', 0.2), ('loc2T2', 0.0), ('corrAnsT2', None)])
+87.1762 	EXP 	gridLines2: autoDraw = False
+87.1762 	EXP 	tarSquare2: autoDraw = False
+87.1762 	EXP 	fixTrial2: autoDraw = False
+87.1762 	EXP 	tarSquare2: pos = array([0.2, 0. ])
+87.1762 	EXP 	gridLines2: autoDraw = True
+87.1762 	EXP 	tarSquare2: autoDraw = True
+88.1593 	EXP 	fixTrial2: autoDraw = True
+88.1759 	EXP 	tarSquare2: autoDraw = False
+89.1590 	EXP 	fixTrial2: autoDraw = False
+89.1610 	EXP 	New trial (rep=0, index=3): OrderedDict([('squareT2', 9), ('loc1T2', 0.2), ('loc2T2', -0.2), ('corrAnsT2', None)])
+89.1757 	EXP 	gridLines2: autoDraw = False
+89.1757 	EXP 	tarSquare2: autoDraw = False
+89.1757 	EXP 	fixTrial2: autoDraw = False
+89.1757 	EXP 	tarSquare2: pos = array([ 0.2, -0.2])
+89.1757 	EXP 	gridLines2: autoDraw = True
+89.1757 	EXP 	tarSquare2: autoDraw = True
+90.1591 	EXP 	fixTrial2: autoDraw = True
+90.1762 	EXP 	tarSquare2: autoDraw = False
+91.1585 	EXP 	fixTrial2: autoDraw = False
+91.1607 	EXP 	New trial (rep=0, index=4): OrderedDict([('squareT2', 3), ('loc1T2', 0.2), ('loc2T2', 0.2), ('corrAnsT2', None)])
+91.1752 	EXP 	gridLines2: autoDraw = False
+91.1752 	EXP 	tarSquare2: autoDraw = False
+91.1752 	EXP 	fixTrial2: autoDraw = False
+91.1752 	EXP 	tarSquare2: pos = array([0.2, 0.2])
+91.1752 	EXP 	gridLines2: autoDraw = True
+91.1752 	EXP 	tarSquare2: autoDraw = True
+92.1583 	EXP 	fixTrial2: autoDraw = True
+92.1749 	EXP 	tarSquare2: autoDraw = False
+93.1580 	EXP 	fixTrial2: autoDraw = False
+93.1602 	EXP 	New trial (rep=0, index=5): OrderedDict([('squareT2', 9), ('loc1T2', 0.2), ('loc2T2', -0.2), ('corrAnsT2', 'space')])
+93.1747 	EXP 	gridLines2: autoDraw = False
+93.1747 	EXP 	tarSquare2: autoDraw = False
+93.1747 	EXP 	fixTrial2: autoDraw = False
+93.1747 	EXP 	tarSquare2: pos = array([ 0.2, -0.2])
+93.1747 	EXP 	gridLines2: autoDraw = True
+93.1747 	EXP 	tarSquare2: autoDraw = True
+94.1297 	DATA 	Keypress: space
+94.1577 	EXP 	fixTrial2: autoDraw = True
+94.1745 	EXP 	tarSquare2: autoDraw = False
+95.1575 	EXP 	fixTrial2: autoDraw = False
+95.1600 	EXP 	New trial (rep=0, index=6): OrderedDict([('squareT2', 7), ('loc1T2', -0.2), ('loc2T2', -0.2), ('corrAnsT2', None)])
+95.1742 	EXP 	gridLines2: autoDraw = False
+95.1742 	EXP 	tarSquare2: autoDraw = False
+95.1742 	EXP 	fixTrial2: autoDraw = False
+95.1742 	EXP 	tarSquare2: pos = array([-0.2, -0.2])
+95.1742 	EXP 	gridLines2: autoDraw = True
+95.1742 	EXP 	tarSquare2: autoDraw = True
+96.1573 	EXP 	fixTrial2: autoDraw = True
+96.1740 	EXP 	tarSquare2: autoDraw = False
+97.1571 	EXP 	fixTrial2: autoDraw = False
+97.1592 	EXP 	New trial (rep=0, index=7): OrderedDict([('squareT2', 1), ('loc1T2', -0.2), ('loc2T2', 0.2), ('corrAnsT2', None)])
+97.1737 	EXP 	gridLines2: autoDraw = False
+97.1737 	EXP 	tarSquare2: autoDraw = False
+97.1737 	EXP 	fixTrial2: autoDraw = False
+97.1737 	EXP 	tarSquare2: pos = array([-0.2,  0.2])
+97.1737 	EXP 	gridLines2: autoDraw = True
+97.1737 	EXP 	tarSquare2: autoDraw = True
+98.1568 	EXP 	fixTrial2: autoDraw = True
+98.1735 	EXP 	tarSquare2: autoDraw = False
+99.1566 	EXP 	fixTrial2: autoDraw = False
+99.1588 	EXP 	New trial (rep=0, index=8): OrderedDict([('squareT2', 5), ('loc1T2', 0.0), ('loc2T2', 0.0), ('corrAnsT2', None)])
+99.1732 	EXP 	gridLines2: autoDraw = False
+99.1732 	EXP 	tarSquare2: autoDraw = False
+99.1732 	EXP 	fixTrial2: autoDraw = False
+99.1732 	EXP 	tarSquare2: pos = array([0., 0.])
+99.1732 	EXP 	gridLines2: autoDraw = True
+99.1732 	EXP 	tarSquare2: autoDraw = True
+100.1564 	EXP 	fixTrial2: autoDraw = True
+100.1730 	EXP 	tarSquare2: autoDraw = False
+101.1561 	EXP 	fixTrial2: autoDraw = False
+101.1583 	EXP 	New trial (rep=0, index=9): OrderedDict([('squareT2', 7), ('loc1T2', -0.2), ('loc2T2', -0.2), ('corrAnsT2', None)])
+101.1728 	EXP 	gridLines2: autoDraw = False
+101.1728 	EXP 	tarSquare2: autoDraw = False
+101.1728 	EXP 	fixTrial2: autoDraw = False
+101.1728 	EXP 	tarSquare2: pos = array([-0.2, -0.2])
+101.1728 	EXP 	gridLines2: autoDraw = True
+101.1728 	EXP 	tarSquare2: autoDraw = True
+102.1564 	EXP 	fixTrial2: autoDraw = True
+102.1731 	EXP 	tarSquare2: autoDraw = False
+103.1556 	EXP 	fixTrial2: autoDraw = False
+103.1578 	EXP 	New trial (rep=0, index=10): OrderedDict([('squareT2', 5), ('loc1T2', 0.0), ('loc2T2', 0.0), ('corrAnsT2', 'space')])
+103.1723 	EXP 	gridLines2: autoDraw = False
+103.1723 	EXP 	tarSquare2: autoDraw = False
+103.1723 	EXP 	fixTrial2: autoDraw = False
+103.1723 	EXP 	tarSquare2: pos = array([0., 0.])
+103.1723 	EXP 	gridLines2: autoDraw = True
+103.1723 	EXP 	tarSquare2: autoDraw = True
+103.8106 	DATA 	Keypress: space
+104.1554 	EXP 	fixTrial2: autoDraw = True
+104.1719 	EXP 	tarSquare2: autoDraw = False
+105.1551 	EXP 	fixTrial2: autoDraw = False
+105.1574 	EXP 	New trial (rep=0, index=11): OrderedDict([('squareT2', 6), ('loc1T2', 0.2), ('loc2T2', 0.0), ('corrAnsT2', None)])
+105.1718 	EXP 	gridLines2: autoDraw = False
+105.1718 	EXP 	tarSquare2: autoDraw = False
+105.1718 	EXP 	fixTrial2: autoDraw = False
+105.1718 	EXP 	tarSquare2: pos = array([0.2, 0. ])
+105.1718 	EXP 	gridLines2: autoDraw = True
+105.1718 	EXP 	tarSquare2: autoDraw = True
+106.1549 	EXP 	fixTrial2: autoDraw = True
+106.1716 	EXP 	tarSquare2: autoDraw = False
+107.1546 	EXP 	fixTrial2: autoDraw = False
+107.1568 	EXP 	New trial (rep=0, index=12): OrderedDict([('squareT2', 3), ('loc1T2', 0.2), ('loc2T2', 0.2), ('corrAnsT2', None)])
+107.1713 	EXP 	gridLines2: autoDraw = False
+107.1713 	EXP 	tarSquare2: autoDraw = False
+107.1713 	EXP 	fixTrial2: autoDraw = False
+107.1713 	EXP 	tarSquare2: pos = array([0.2, 0.2])
+107.1713 	EXP 	gridLines2: autoDraw = True
+107.1713 	EXP 	tarSquare2: autoDraw = True
+108.1544 	EXP 	fixTrial2: autoDraw = True
+108.1711 	EXP 	tarSquare2: autoDraw = False
+109.1541 	EXP 	fixTrial2: autoDraw = False
+109.1563 	EXP 	New trial (rep=0, index=13): OrderedDict([('squareT2', 6), ('loc1T2', 0.2), ('loc2T2', 0.0), ('corrAnsT2', 'space')])
+109.1708 	EXP 	gridLines2: autoDraw = False
+109.1708 	EXP 	tarSquare2: autoDraw = False
+109.1708 	EXP 	fixTrial2: autoDraw = False
+109.1708 	EXP 	tarSquare2: pos = array([0.2, 0. ])
+109.1708 	EXP 	gridLines2: autoDraw = True
+109.1708 	EXP 	tarSquare2: autoDraw = True
+110.1539 	EXP 	fixTrial2: autoDraw = True
+110.1706 	EXP 	tarSquare2: autoDraw = False
+111.1537 	EXP 	fixTrial2: autoDraw = False
+111.1558 	EXP 	New trial (rep=0, index=14): OrderedDict([('squareT2', 8), ('loc1T2', 0.0), ('loc2T2', -0.2), ('corrAnsT2', None)])
+111.1703 	EXP 	gridLines2: autoDraw = False
+111.1703 	EXP 	tarSquare2: autoDraw = False
+111.1703 	EXP 	fixTrial2: autoDraw = False
+111.1703 	EXP 	tarSquare2: pos = array([ 0. , -0.2])
+111.1703 	EXP 	gridLines2: autoDraw = True
+111.1703 	EXP 	tarSquare2: autoDraw = True
+112.1534 	EXP 	fixTrial2: autoDraw = True
+112.1701 	EXP 	tarSquare2: autoDraw = False
+113.1532 	EXP 	fixTrial2: autoDraw = False
+113.1552 	EXP 	New trial (rep=0, index=15): OrderedDict([('squareT2', 9), ('loc1T2', 0.2), ('loc2T2', -0.2), ('corrAnsT2', None)])
+113.1698 	EXP 	gridLines2: autoDraw = False
+113.1698 	EXP 	tarSquare2: autoDraw = False
+113.1698 	EXP 	fixTrial2: autoDraw = False
+113.1698 	EXP 	tarSquare2: pos = array([ 0.2, -0.2])
+113.1698 	EXP 	gridLines2: autoDraw = True
+113.1698 	EXP 	tarSquare2: autoDraw = True
+114.1529 	EXP 	fixTrial2: autoDraw = True
+114.1696 	EXP 	tarSquare2: autoDraw = False
+115.1527 	EXP 	fixTrial2: autoDraw = False
+115.1547 	EXP 	New trial (rep=0, index=16): OrderedDict([('squareT2', 9), ('loc1T2', 0.2), ('loc2T2', -0.2), ('corrAnsT2', None)])
+115.1693 	EXP 	gridLines2: autoDraw = False
+115.1693 	EXP 	tarSquare2: autoDraw = False
+115.1693 	EXP 	fixTrial2: autoDraw = False
+115.1693 	EXP 	tarSquare2: pos = array([ 0.2, -0.2])
+115.1693 	EXP 	gridLines2: autoDraw = True
+115.1693 	EXP 	tarSquare2: autoDraw = True
+116.1525 	EXP 	fixTrial2: autoDraw = True
+116.1691 	EXP 	tarSquare2: autoDraw = False
+117.1522 	EXP 	fixTrial2: autoDraw = False
+117.1542 	EXP 	New trial (rep=0, index=17): OrderedDict([('squareT2', 1), ('loc1T2', -0.2), ('loc2T2', 0.2), ('corrAnsT2', None)])
+117.1689 	EXP 	gridLines2: autoDraw = False
+117.1689 	EXP 	tarSquare2: autoDraw = False
+117.1689 	EXP 	fixTrial2: autoDraw = False
+117.1689 	EXP 	tarSquare2: pos = array([-0.2,  0.2])
+117.1689 	EXP 	gridLines2: autoDraw = True
+117.1689 	EXP 	tarSquare2: autoDraw = True
+118.1519 	EXP 	fixTrial2: autoDraw = True
+118.1686 	EXP 	tarSquare2: autoDraw = False
+119.1517 	EXP 	fixTrial2: autoDraw = False
+119.1537 	EXP 	New trial (rep=0, index=18): OrderedDict([('squareT2', 3), ('loc1T2', 0.2), ('loc2T2', 0.2), ('corrAnsT2', None)])
+119.1684 	EXP 	gridLines2: autoDraw = False
+119.1684 	EXP 	tarSquare2: autoDraw = False
+119.1684 	EXP 	fixTrial2: autoDraw = False
+119.1684 	EXP 	tarSquare2: pos = array([0.2, 0.2])
+119.1684 	EXP 	gridLines2: autoDraw = True
+119.1684 	EXP 	tarSquare2: autoDraw = True
+120.1515 	EXP 	fixTrial2: autoDraw = True
+120.1681 	EXP 	tarSquare2: autoDraw = False
+121.1513 	EXP 	fixTrial2: autoDraw = False
+121.1533 	EXP 	New trial (rep=0, index=19): OrderedDict([('squareT2', 5), ('loc1T2', 0.0), ('loc2T2', 0.0), ('corrAnsT2', None)])
+121.1679 	EXP 	gridLines2: autoDraw = False
+121.1679 	EXP 	tarSquare2: autoDraw = False
+121.1679 	EXP 	fixTrial2: autoDraw = False
+121.1679 	EXP 	tarSquare2: pos = array([0., 0.])
+121.1679 	EXP 	gridLines2: autoDraw = True
+121.1679 	EXP 	tarSquare2: autoDraw = True
+122.1510 	EXP 	fixTrial2: autoDraw = True
+122.1676 	EXP 	tarSquare2: autoDraw = False
+123.1508 	EXP 	fixTrial2: autoDraw = False
+123.1528 	EXP 	New trial (rep=0, index=20): OrderedDict([('squareT2', 3), ('loc1T2', 0.2), ('loc2T2', 0.2), ('corrAnsT2', 'space')])
+123.1674 	EXP 	gridLines2: autoDraw = False
+123.1674 	EXP 	tarSquare2: autoDraw = False
+123.1674 	EXP 	fixTrial2: autoDraw = False
+123.1674 	EXP 	tarSquare2: pos = array([0.2, 0.2])
+123.1674 	EXP 	gridLines2: autoDraw = True
+123.1674 	EXP 	tarSquare2: autoDraw = True
+124.1505 	EXP 	fixTrial2: autoDraw = True
+124.1671 	EXP 	tarSquare2: autoDraw = False
+125.1503 	EXP 	fixTrial2: autoDraw = False
+125.1524 	EXP 	New trial (rep=0, index=21): OrderedDict([('squareT2', 4), ('loc1T2', -0.2), ('loc2T2', 0.0), ('corrAnsT2', None)])
+125.1669 	EXP 	gridLines2: autoDraw = False
+125.1669 	EXP 	tarSquare2: autoDraw = False
+125.1669 	EXP 	fixTrial2: autoDraw = False
+125.1669 	EXP 	tarSquare2: pos = array([-0.2,  0. ])
+125.1669 	EXP 	gridLines2: autoDraw = True
+125.1669 	EXP 	tarSquare2: autoDraw = True
+126.1501 	EXP 	fixTrial2: autoDraw = True
+126.1667 	EXP 	tarSquare2: autoDraw = False
+127.1498 	EXP 	fixTrial2: autoDraw = False
+127.1520 	EXP 	New trial (rep=0, index=22): OrderedDict([('squareT2', 7), ('loc1T2', -0.2), ('loc2T2', -0.2), ('corrAnsT2', None)])
+127.1664 	EXP 	gridLines2: autoDraw = False
+127.1664 	EXP 	tarSquare2: autoDraw = False
+127.1664 	EXP 	fixTrial2: autoDraw = False
+127.1664 	EXP 	tarSquare2: pos = array([-0.2, -0.2])
+127.1664 	EXP 	gridLines2: autoDraw = True
+127.1664 	EXP 	tarSquare2: autoDraw = True
+128.1495 	EXP 	fixTrial2: autoDraw = True
+128.1661 	EXP 	tarSquare2: autoDraw = False
+129.1493 	EXP 	fixTrial2: autoDraw = False
+129.1513 	EXP 	New trial (rep=0, index=23): OrderedDict([('squareT2', 4), ('loc1T2', -0.2), ('loc2T2', 0.0), ('corrAnsT2', 'space')])
+129.1659 	EXP 	gridLines2: autoDraw = False
+129.1659 	EXP 	tarSquare2: autoDraw = False
+129.1659 	EXP 	fixTrial2: autoDraw = False
+129.1659 	EXP 	tarSquare2: pos = array([-0.2,  0. ])
+129.1659 	EXP 	gridLines2: autoDraw = True
+129.1659 	EXP 	tarSquare2: autoDraw = True
+130.1490 	EXP 	fixTrial2: autoDraw = True
+130.1657 	EXP 	tarSquare2: autoDraw = False
+131.1488 	EXP 	fixTrial2: autoDraw = False
+131.1510 	EXP 	New trial (rep=0, index=24): OrderedDict([('squareT2', 4), ('loc1T2', -0.2), ('loc2T2', 0.0), ('corrAnsT2', None)])
+131.1655 	EXP 	gridLines2: autoDraw = False
+131.1655 	EXP 	tarSquare2: autoDraw = False
+131.1655 	EXP 	fixTrial2: autoDraw = False
+131.1655 	EXP 	tarSquare2: pos = array([-0.2,  0. ])
+131.1655 	EXP 	gridLines2: autoDraw = True
+131.1655 	EXP 	tarSquare2: autoDraw = True
+132.1485 	EXP 	fixTrial2: autoDraw = True
+132.1652 	EXP 	tarSquare2: autoDraw = False
+133.1483 	EXP 	fixTrial2: autoDraw = False
+133.1505 	EXP 	New trial (rep=0, index=25): OrderedDict([('squareT2', 5), ('loc1T2', 0.0), ('loc2T2', 0.0), ('corrAnsT2', None)])
+133.1649 	EXP 	gridLines2: autoDraw = False
+133.1649 	EXP 	tarSquare2: autoDraw = False
+133.1649 	EXP 	fixTrial2: autoDraw = False
+133.1649 	EXP 	tarSquare2: pos = array([0., 0.])
+133.1649 	EXP 	gridLines2: autoDraw = True
+133.1649 	EXP 	tarSquare2: autoDraw = True
+134.1481 	EXP 	fixTrial2: autoDraw = True
+134.1647 	EXP 	tarSquare2: autoDraw = False
+135.1478 	EXP 	fixTrial2: autoDraw = False
+135.1518 	EXP 	New trial (rep=0, index=26): OrderedDict([('squareT2', 2), ('loc1T2', 0.0), ('loc2T2', 0.2), ('corrAnsT2', None)])
+135.1645 	EXP 	gridLines2: autoDraw = False
+135.1645 	EXP 	gridLines2: autoDraw = False
+135.1645 	EXP 	tarSquare2: autoDraw = False
+135.1645 	EXP 	fixTrial2: autoDraw = False
+135.1645 	EXP 	tarSquare2: pos = array([0. , 0.2])
+135.1645 	EXP 	gridLines2: autoDraw = True
+135.1645 	EXP 	tarSquare2: autoDraw = True
+136.1476 	EXP 	fixTrial2: autoDraw = True
+136.1642 	EXP 	tarSquare2: autoDraw = False
+137.1473 	EXP 	fixTrial2: autoDraw = False
+137.1514 	EXP 	New trial (rep=0, index=27): OrderedDict([('squareT2', 6), ('loc1T2', 0.2), ('loc2T2', 0.0), ('corrAnsT2', None)])
+137.1640 	EXP 	gridLines2: autoDraw = False
+137.1640 	EXP 	gridLines2: autoDraw = False
+137.1640 	EXP 	tarSquare2: autoDraw = False
+137.1640 	EXP 	fixTrial2: autoDraw = False
+137.1640 	EXP 	tarSquare2: pos = array([0.2, 0. ])
+137.1640 	EXP 	gridLines2: autoDraw = True
+137.1640 	EXP 	tarSquare2: autoDraw = True
+138.1471 	EXP 	fixTrial2: autoDraw = True
+138.1638 	EXP 	tarSquare2: autoDraw = False
+139.1468 	EXP 	fixTrial2: autoDraw = False
+139.1508 	EXP 	New trial (rep=0, index=28): OrderedDict([('squareT2', 7), ('loc1T2', -0.2), ('loc2T2', -0.2), ('corrAnsT2', None)])
+139.1635 	EXP 	gridLines2: autoDraw = False
+139.1635 	EXP 	gridLines2: autoDraw = False
+139.1635 	EXP 	tarSquare2: autoDraw = False
+139.1635 	EXP 	fixTrial2: autoDraw = False
+139.1635 	EXP 	tarSquare2: pos = array([-0.2, -0.2])
+139.1635 	EXP 	gridLines2: autoDraw = True
+139.1635 	EXP 	tarSquare2: autoDraw = True
+140.1466 	EXP 	fixTrial2: autoDraw = True
+140.1633 	EXP 	tarSquare2: autoDraw = False
+141.1464 	EXP 	fixTrial2: autoDraw = False
+141.1504 	EXP 	New trial (rep=0, index=29): OrderedDict([('squareT2', 6), ('loc1T2', 0.2), ('loc2T2', 0.0), ('corrAnsT2', 'space')])
+141.1630 	EXP 	gridLines2: autoDraw = False
+141.1630 	EXP 	gridLines2: autoDraw = False
+141.1630 	EXP 	tarSquare2: autoDraw = False
+141.1630 	EXP 	fixTrial2: autoDraw = False
+141.1630 	EXP 	tarSquare2: pos = array([0.2, 0. ])
+141.1630 	EXP 	gridLines2: autoDraw = True
+141.1630 	EXP 	tarSquare2: autoDraw = True
+142.1461 	EXP 	fixTrial2: autoDraw = True
+142.1628 	EXP 	tarSquare2: autoDraw = False
+143.1459 	EXP 	fixTrial2: autoDraw = False
+143.1625 	EXP 	gridLines2: autoDraw = False
+143.1625 	EXP 	gridLines2: autoDraw = False
+143.1625 	EXP 	tarSquare2: autoDraw = False
+143.1625 	EXP 	fixTrial2: autoDraw = False
+143.1625 	EXP 	thanks: autoDraw = True
+146.1618 	EXP 	thanks: autoDraw = False
+146.1618 	EXP 	thanks: autoDraw = False
+146.5088 	EXP 	window1: mouseVisible = True
